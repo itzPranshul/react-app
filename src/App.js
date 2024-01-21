@@ -1,13 +1,14 @@
-import logo from './logo.svg';
+import pranshul from './pranshul.jpg';
+// import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img id="myphoto" src={pranshul} alt="photo of pranshul"/>
         <p>
-          pranshul gupta is a good boy
+          pranshul gupta 
         </p>
         <a
           className="App-link"
